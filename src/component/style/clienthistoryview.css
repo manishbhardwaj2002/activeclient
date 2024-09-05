@@ -1,0 +1,26 @@
+.clienthistoryview {display:none;}
+@media (max-width: 575.98px) {
+    .clienthistoryview {background: #02070E; display: block; color:grey}
+    .css-46bh2p-MuiCardContent-root {
+        padding: 8px !important;
+    }
+
+    .modifyinputd{ 
+      background:grey !important;
+     
+    width:80px;
+    }
+
+      .modifyinputen{
+        background:transparent !important;     width:80px; border:1px solid #02070E;
+      cursor: pointer;
+      }
+     
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .clienthistoryview {background: #02070E;}
+  }
+  
+
+

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+.clr{clear: both;}
+.App{min-height:100vh;}
+
+@media (max-width: 575.98px) {
+.App{background: #02070e;}
+}
+
+.css-6e8ssa-MuiInputBase-root-MuiOutlinedInput-root input {background: transparent !important;}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input{background: transparent !important;}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input{background: transparent !important;} 
+
+
+
+

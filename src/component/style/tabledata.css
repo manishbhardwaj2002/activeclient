@@ -1,0 +1,219 @@
+.tabledata {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px;
+  padding-top:0px;
+}
+
+.tabledatamview {
+  display: none;
+}
+
+.tablecontainer {
+  width: 99%;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-bottom: auto;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+
+.tabledata .segmentdetail {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.tabledata table .thead {
+  background: #edeff7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tabledata table .thead th {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tabledata table .thead .dataright {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tabledata table .thead .dataleft {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.greybg {
+  background: #f6f6f7;
+}
+
+.whitebg {
+  background: #fff;
+}
+
+.whitebg td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.whitebg td:first-child {
+  font-family: "Roboto";
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.greybg td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.greybg td:first-child {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.tabledata input {
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  outline: none;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.tabledata table .tbottom {
+  background: #edeff7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tabledata table .tbottom td {
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: #424242;
+}
+
+.btnbox {
+  text-align: right;
+}
+.history {
+  text-align: right;
+  margin-bottom: -3px;
+}
+
+.history a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #5679f5;
+}
+
+.submitbtn {
+  background: #0ca750;
+  border-radius: 4px;
+  padding: 10px 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .history {
+    display: none;
+  }
+  .segmentdetail {
+    display: none;
+  }
+  .btnbox {
+    display: none;
+  }
+  .tablecontainer {
+    background: transparent;
+    margin-left: 0;
+    margin-right: 0;
+    background: #02070e;
+    padding: 0px;
+  }
+  .tabledata {
+    background: #02070e;
+    padding: 00px 0px;
+    width: 100%;
+  }
+  .btnbox {
+    display: none;
+  }
+
+  .tabledatamview {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .hisorymview {
+    text-align: right;
+    margin-bottom: 3px;
+  }
+
+  .hisorymview a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #5679f5;
+    margin-right: 15px;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .history {
+    display: none;
+  }
+  .segmentdetail {
+    display: none;
+  }
+  .btnbox {
+    display: none;
+  }
+  .tablecontainer {
+    background: transparent;
+    margin-left: 0;
+    margin-right: 0;
+    background: #02070e;
+    padding: 0px;
+  }
+  .tabledata {
+    background: #02070e;
+    padding: 00px 0px;
+    width: 100%;
+  }
+  .btnbox {
+    display: none;
+  }
+
+  .tabledatamview {
+    display: block;
+  }
+}

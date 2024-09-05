@@ -1,0 +1,158 @@
+
+  
+ .modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+  
+  }
+  
+ 
+ .modalBackground .historymodal {
+    width: 60%;
+    height: auto;
+    border-radius: 6px;
+     background: #fff;;
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  
+  /* .historymodal .xclose {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff;
+    background-color: crimson;
+    align-self: flex-end;
+    margin-top: -1.5em;
+    margin-right: -1.5em;
+    z-index: 1000;
+  }
+   */
+  .modalBackground .historymodal .modalbody{padding:15px 20px; }
+
+  .css-sghohy-MuiButtonBase-root-MuiButton-root{background: #0CA750 !important;
+    border-radius: 4px !important;}
+
+    .historymodal .modalbody table{width:100%; border-collapse: collapse;}
+
+    .historymodal .modalbody table th { text-align: left; font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      padding-left:10px;
+    
+ color: #424242;
+  }
+
+
+  .historymodal .modalbody table .dataleft {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+  }
+
+  .historymodal .modalbody table .dataright {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+    .historymodal .modalbody table .thead {
+      background: #edeff7;
+      border-radius: 10px;
+      padding: 20px;
+       line-height: 40px;
+    }
+
+    .historymodal .modalbody table  .whitebg td {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+color: #707070;
+  }
+
+  .historymodal .modalbody table  .whitebg td:first-child {
+   
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+color: #707070;
+}
+
+
+.historymodal .modalbody table .greybg td:first-child {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.historymodal .modalbody table  .greybg td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+color: #707070;
+}
+
+
+
+  
+  /* .x {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -10px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-weight: 500;
+    padding: 1px;
+    font-size: 10px;
+  } */
+  
+
+  .historymodal .xclose {
+  
+    background: transparent;
+    color: #707070;
+   float: right;
+   display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: 500;
+    padding: 1px;
+    font-size: 20px;
+    border:0px;
+   
+  }
+  
+
+
+
+
+ 
+  

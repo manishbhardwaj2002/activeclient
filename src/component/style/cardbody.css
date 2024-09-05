@@ -1,0 +1,264 @@
+.cardbody {
+  background: #e4e8f3;
+  padding: 5px 0px;
+}
+
+.datacentermview {
+  display: none;
+}
+
+.cardbody .datacenter {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardbody .datacenter .databox {
+  background: #fcfbff;
+  border: 1px solid rgba(54, 13, 70, 0.25);
+  border-radius: 5px;
+  padding: 10px 24px;
+  width: 32%;
+  margin-left: 1%;
+  float: left;
+}
+
+.cardbody .datacenter .databox .head {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+  color: #424242;
+}
+
+.cardbody .datacenter .databox table {
+  margin-top: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cardbody .datacenter .databox table .bg {
+  background: #e7eefa;
+  border-radius: 10px;
+}
+
+.cardbody .datacenter .databox table .bg td {
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cardbody .datacenter .databox table .bg .left {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #707070;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+.cardbody .datacenter .databox table .bg .right {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #424242;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+}
+
+@media (max-width: 575.98px) {
+  .cardbody {
+    background: #02070e;
+    padding: 20px 0px;
+ 
+  }
+
+  .datacenter {
+    display: none;
+  }
+
+  .datacentermview {
+    display: block;
+    background: #041425;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+  .datacentermview .headbox {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 4px;
+  }
+
+  .datacentermview .headbox .info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    width:33.33%;
+  
+  }
+
+  .datacentermview .headbox .leftinfo {
+    width:33.33%;
+
+  }
+
+  .datacentermview .databox {
+    background: #1d2b3a;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 35px;
+    margin-bottom: 5px;
+  }
+
+  .datacentermview .databox .leftinfo {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #bdbdbd;
+    width:33.33%;
+    float:left;
+    display:inline
+   
+  }
+
+  .datacentermview .databox .info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    width:33.33%;
+    float:left;
+  
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+
+  .cardbody {
+    background: #02070e;
+    padding: 20px 0px;
+ 
+  }
+
+
+
+  .datacenter {
+    display: none;
+  }
+
+  .datacentermview {
+    display: block;
+    background: #041425;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+  .datacentermview .headbox {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 4px;
+  }
+
+  .datacentermview .headbox .info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    width:33.33%;
+  
+  }
+
+  .datacentermview .headbox .leftinfo {
+    width:33.33%;
+
+  }
+
+  .datacentermview .databox {
+    background: #1d2b3a;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 35px;
+    margin-bottom: 5px;
+  }
+
+  .datacentermview .databox .leftinfo {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #bdbdbd;
+    width:33.33%;
+    float:left;
+    display:inline
+   
+  }
+
+  .datacentermview .databox .info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    width:33.33%;
+    float:left;
+  
+  }
+
+  .hisorymview a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #5679f5;
+    margin-right: 30px;
+    text-transform: capitalize;
+    text-align: right;
+    display: block;
+}
+
+  .datacenter {
+    display: none;
+  }
+
+  .datacentermview {
+    display: block;
+  }
+}
